@@ -29,12 +29,21 @@ https://whycan.com/t_2420.html
 The pinout of the lower flex cable on post #4 of the forum seems to match up with the ribbon on the FLCOS module.
 
 
-The pinout of the RGB LED cable on the module is a bit strange. There is no correlation between the wire colours, the silkscreen designators, and the RGB LED chip itself.
+The pinout of the RGB LED cable on the module is a bit strange.
+There is no correlation between the wire colours, the silkscreen designators, and the RGB LED chip itself.
 
-But I tested the RGB LED with a bench PSU, and the pinout on the Eagle schematic *should* be correct now.
+I tested the RGB LED with a bench PSU, though, and the pinout on the Eagle schematic *should* be correct now.
 I just need to double-check that the JST ZH connector for the LED is not rotated 180-degrees or something.
 
 (it's possible the manufacturer changed the RGB LED for a different one on request, which is why the LED cable pinout doesn't seem to tally with the silkscreen?)
+
+The exact maximum LED current is unknown.
+I tested one of the Green LEDs with 160mA at first, and it didn't seem to increase in brightness much above 200mA.
+
+The forward voltage drop of the Blue and Green LEDs was around 3.3 Volts, according to my bench PSU (when current-limiting). (there are two Green LEDs on the die) 
+
+The forward voltage drop of the Red LED was around 2.0 Volts.
+
 
 The included RGB LED has all of Anodes connected together.
 I originally put some LM3404 LED driver ICs on the board, but they wouldn't have worked for a common-Anode LED.
@@ -73,8 +82,25 @@ Most of the footprint libraries for the ESP32, SD slot, TVP5150, and LM3414 were
 I don't have the names or links to all of those projects now, but I will add them to the README if I can find them.
 
 
+I used Eagle 9.0.1 to do the PCB layout.
+
 Again, please don't build this yet until the first prototypes can be tested.
+There likely WILL be some mistakes atm. This is not my best PCB layout. lol
 
 
 ElectronAsh. ;)
 
+
+This was a quick test of the Green LEDs. FLCOS chip itself is not powered.
+
+Both Green LEDs in parallel, 220mA, lens was 150mm from the "screen".
+The box is only 90mm wide.
+
+![FLCOS Green LED test - front view](images/FLCOS Green LED test - front view.png)
+![FLCOS Green LED test - 150mm from screen](images/FLCOS Green LED test - 150mm from screen.png)
+![FLCOS Green LED test - screen view](images/FLCOS Green LED test - screen view.png)
+
+![FLCOS Schematic Eagle sheet 1](images/FLCOS Schematic Eagle sheet 1.png)
+![FLCOS Schematic Eagle sheet 2](images/FLCOS Schematic Eagle sheet 2.png)
+![FLCOS Schematic Eagle sheet 3](images/FLCOS Schematic Eagle sheet 3.png)
+![FLCOS Green LED test - front view](images/FLCOS Board Eagle.png)

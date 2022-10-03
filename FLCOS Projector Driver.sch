@@ -21713,14 +21713,14 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="-25.4" y1="73.66" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-25.4" y="76.2"/>
 <label x="-17.78" y="76.2" size="1.778" layer="95"/>
-<wire x1="35.56" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="73.66" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
-<junction x="15.24" y="76.2"/>
-<wire x1="35.56" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="71.12" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
-<junction x="15.24" y="73.66"/>
+<wire x1="35.56" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="73.66" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="20.32" y="76.2"/>
+<wire x1="35.56" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="71.12" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="20.32" y="73.66"/>
 <pinref part="IC3" gate="G1" pin="OUT"/>
 </segment>
 </net>
@@ -22813,16 +22813,6 @@ Pinout / LED colours tested with meter and bench PSU...</text>
 <label x="129.54" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
