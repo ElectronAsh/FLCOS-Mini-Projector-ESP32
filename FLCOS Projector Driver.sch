@@ -21231,7 +21231,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="IC4" library="v-reg-micrel" deviceset="MIC5219BM5" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="0R"/>
 <part name="IC1" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="RGB" library="con-jst" deviceset="ZH-8" device=""/>
 <part name="L5" library="A_butts" deviceset="INDUCTOR" device="-TAIYO-YUDEN-6X2.8" value="15uF"/>
@@ -21265,6 +21264,10 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="0R"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
 </parts>
 <sheets>
 <sheet>
@@ -21333,8 +21336,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="C23" gate="G$1" x="-25.4" y="96.52"/>
 <instance part="IC3" gate="G1" x="-40.64" y="71.12"/>
 <instance part="IC4" gate="G1" x="99.06" y="7.62"/>
-<instance part="R11" gate="G$1" x="109.22" y="63.5" rot="MR0"/>
 <instance part="IC1" gate="G$1" x="-38.1" y="106.68"/>
+<instance part="+3V3" gate="G$1" x="88.9" y="99.06"/>
+<instance part="R11" gate="G$1" x="109.22" y="63.5"/>
+<instance part="R5" gate="G$1" x="83.82" y="83.82" rot="R90"/>
+<instance part="R6" gate="G$1" x="93.98" y="83.82" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21752,15 +21758,19 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <net name="TVP_SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="66.04" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <label x="71.12" y="76.2" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<wire x1="66.04" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="76.2" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TVP_SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
-<wire x1="66.04" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
 <label x="71.12" y="73.66" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<wire x1="66.04" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="73.66" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -21815,8 +21825,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="X1" gate="-5" pin="1"/>
 <label x="134.62" y="63.5" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -21892,6 +21902,17 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <junction x="33.02" y="68.58"/>
 </segment>
+<segment>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="91.44" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="88.9" y1="91.44" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
+<junction x="88.9" y="91.44"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="EN_N" class="0">
 <segment>
@@ -21907,9 +21928,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <label x="101.6" y="63.5" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
