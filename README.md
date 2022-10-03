@@ -96,9 +96,9 @@ This was a quick test of the Green LEDs. FLCOS chip itself is not powered.
 Both Green LEDs in parallel, 220mA, lens was 150mm from the "screen".
 The box is only 90mm wide.
 
-![FLCOS Green LED test - front view](images/FLCOS Green LED test - front view.png)
-![FLCOS Green LED test - 150mm from screen](images/FLCOS Green LED test - 150mm from screen.png)
-![FLCOS Green LED test - screen view](images/FLCOS Green LED test - screen view.png)
+![FLCOS Green LED test front view](images/FLCOS Green LED test front view.png)
+![FLCOS Green LED test 150mm from screen](images/FLCOS Green LED test 150mm from screen.png)
+![FLCOS Green LED test screen view](images/FLCOS Green LED test screen view.png)
 
 ![FLCOS Schematic Eagle sheet 1](images/FLCOS Schematic Eagle sheet 1.png)
 ![FLCOS Schematic Eagle sheet 2](images/FLCOS Schematic Eagle sheet 2.png)
