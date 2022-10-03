@@ -21314,26 +21314,26 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="C16" gate="G$1" x="0" y="30.48" rot="R180"/>
 <instance part="C17" gate="G$1" x="20.32" y="30.48" rot="R180"/>
 <instance part="GND22" gate="1" x="-38.1" y="53.34"/>
-<instance part="P+6" gate="1" x="-53.34" y="114.3"/>
+<instance part="P+6" gate="1" x="-55.88" y="114.3"/>
 <instance part="C18" gate="G$1" x="-25.4" y="71.12"/>
 <instance part="C19" gate="G$1" x="10.16" y="38.1" rot="R270"/>
-<instance part="C20" gate="G$1" x="-35.56" y="43.18" rot="R90"/>
-<instance part="C21" gate="G$1" x="-35.56" y="15.24" rot="R90"/>
-<instance part="R7" gate="G$1" x="-48.26" y="43.18"/>
-<instance part="R8" gate="G$1" x="-33.02" y="35.56" rot="MR0"/>
-<instance part="R9" gate="G$1" x="-48.26" y="15.24"/>
-<instance part="R10" gate="G$1" x="-33.02" y="7.62" rot="MR0"/>
-<instance part="GND24" gate="1" x="-22.86" y="7.62" rot="R90"/>
-<instance part="GND25" gate="1" x="-22.86" y="35.56" rot="R90"/>
+<instance part="C20" gate="G$1" x="-33.02" y="38.1" rot="R90"/>
+<instance part="C21" gate="G$1" x="-33.02" y="10.16" rot="R90"/>
+<instance part="R7" gate="G$1" x="-45.72" y="38.1"/>
+<instance part="R8" gate="G$1" x="-30.48" y="30.48" rot="MR0"/>
+<instance part="R9" gate="G$1" x="-45.72" y="10.16"/>
+<instance part="R10" gate="G$1" x="-30.48" y="2.54" rot="MR0"/>
+<instance part="GND24" gate="1" x="-20.32" y="2.54" rot="R90"/>
+<instance part="GND25" gate="1" x="-20.32" y="30.48" rot="R90"/>
 <instance part="Q1" gate="G$1" x="7.62" y="55.88" rot="R90"/>
-<instance part="JP2" gate="A" x="-73.66" y="27.94" rot="MR0"/>
-<instance part="GND26" gate="1" x="-66.04" y="20.32"/>
+<instance part="JP2" gate="A" x="-71.12" y="22.86" rot="MR0"/>
+<instance part="GND26" gate="1" x="-63.5" y="15.24"/>
 <instance part="C22" gate="G$1" x="111.76" y="48.26" rot="R90"/>
 <instance part="GND27" gate="1" x="104.14" y="48.26" rot="R270"/>
 <instance part="+3V1" gate="G$1" x="-25.4" y="111.76" rot="MR0"/>
 <instance part="+3V2" gate="G$1" x="33.02" y="88.9"/>
-<instance part="GND28" gate="1" x="-38.1" y="83.82"/>
-<instance part="C23" gate="G$1" x="-25.4" y="96.52"/>
+<instance part="GND28" gate="1" x="-38.1" y="86.36"/>
+<instance part="C23" gate="G$1" x="-25.4" y="99.06"/>
 <instance part="IC3" gate="G1" x="-40.64" y="71.12"/>
 <instance part="IC4" gate="G1" x="99.06" y="7.62"/>
 <instance part="IC1" gate="G$1" x="-38.1" y="106.68"/>
@@ -21383,17 +21383,17 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="-50.8" y1="76.2" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="76.2" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="106.68" x2="-53.34" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="71.12" x2="-53.34" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="71.12" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-53.34" y="76.2"/>
-<junction x="-53.34" y="106.68"/>
+<wire x1="-50.8" y1="76.2" x2="-55.88" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="76.2" x2="-55.88" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="106.68" x2="-55.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="71.12" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="71.12" x2="-55.88" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-55.88" y="76.2"/>
+<junction x="-55.88" y="106.68"/>
 <pinref part="IC3" gate="G1" pin="IN"/>
 <pinref part="IC3" gate="G1" pin="EN"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="-45.72" y1="106.68" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="106.68" x2="-55.88" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21468,18 +21468,18 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="7.62" x2="-27.94" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="2.54" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="35.56" x2="-27.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="30.48" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="-71.12" y1="25.4" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="25.4" x2="-66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="20.32" x2="-63.5" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="20.32" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -21488,16 +21488,16 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="-38.1" y1="86.36" x2="-38.1" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="88.9" x2="-38.1" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="-38.1" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="88.9" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-38.1" y="88.9"/>
+<wire x1="-38.1" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="91.44" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-38.1" y="91.44"/>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
-<wire x1="-38.1" y1="88.9" x2="-38.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="91.44" x2="-38.1" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="FLCOS_D7" class="0">
 <segment>
 <pinref part="X1" gate="-7" pin="1"/>
 <wire x1="139.7" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
@@ -21509,7 +21509,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="45.72" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D6" class="0">
+<net name="FLCOS_D6" class="0">
 <segment>
 <pinref part="X1" gate="-8" pin="1"/>
 <wire x1="139.7" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
@@ -21521,7 +21521,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="48.26" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D5" class="0">
+<net name="FLCOS_D5" class="0">
 <segment>
 <pinref part="X1" gate="-9" pin="1"/>
 <wire x1="139.7" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
@@ -21533,7 +21533,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="50.8" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="FLCOS_D4" class="0">
 <segment>
 <pinref part="X1" gate="-10" pin="1"/>
 <wire x1="139.7" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
@@ -21566,7 +21566,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="134.62" y="40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D3" class="0">
+<net name="FLCOS_D3" class="0">
 <segment>
 <pinref part="X1" gate="-15" pin="1"/>
 <wire x1="139.7" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
@@ -21578,7 +21578,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="55.88" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="FLCOS_D2" class="0">
 <segment>
 <pinref part="X1" gate="-16" pin="1"/>
 <wire x1="139.7" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
@@ -21590,7 +21590,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="58.42" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="FLCOS_D1" class="0">
 <segment>
 <pinref part="X1" gate="-17" pin="1"/>
 <wire x1="139.7" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
@@ -21602,7 +21602,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="60.96" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="D0" class="0">
+<net name="FLCOS_D0" class="0">
 <segment>
 <pinref part="X1" gate="-18" pin="1"/>
 <wire x1="139.7" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
@@ -21614,7 +21614,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="63.5" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="VALID" class="0">
+<net name="FLCOS_VALID" class="0">
 <segment>
 <pinref part="X1" gate="-19" pin="1"/>
 <wire x1="139.7" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
@@ -21626,7 +21626,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="33.02" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="VD" class="0">
+<net name="FLCOS_VD" class="0">
 <segment>
 <pinref part="X1" gate="-20" pin="1"/>
 <wire x1="139.7" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
@@ -21638,7 +21638,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="38.1" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="HD" class="0">
+<net name="FLCOS_HD" class="0">
 <segment>
 <pinref part="X1" gate="-21" pin="1"/>
 <wire x1="139.7" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
@@ -21650,7 +21650,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <label x="71.12" y="40.64" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
-<net name="PCLK" class="0">
+<net name="FLCOS_PCLK" class="0">
 <segment>
 <pinref part="X1" gate="-22" pin="1"/>
 <wire x1="139.7" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
@@ -21676,8 +21676,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="43.18" x2="-22.86" y2="43.18" width="0.1524" layer="91"/>
-<label x="-25.4" y="43.18" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="-22.86" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AIP1B" class="0">
@@ -21688,8 +21688,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="15.24" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
-<label x="-25.4" y="15.24" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
+<label x="-22.86" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TVP_FID" class="0">
@@ -21840,42 +21840,42 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="15.24" x2="-40.64" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="10.16" x2="-38.1" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="15.24" x2="-38.1" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="7.62" x2="-40.64" y2="15.24" width="0.1524" layer="91"/>
-<junction x="-40.64" y="15.24"/>
+<wire x1="-38.1" y1="10.16" x2="-35.56" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="2.54" x2="-38.1" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="2.54" x2="-38.1" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-38.1" y="10.16"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="43.18" x2="-40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="38.1" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="43.18" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="35.56" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="35.56" x2="-40.64" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-40.64" y="43.18"/>
+<wire x1="-38.1" y1="38.1" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="30.48" x2="-38.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="30.48" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-38.1" y="38.1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="43.18" x2="-60.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="38.1" x2="-58.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="-60.96" y1="43.18" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="30.48" x2="-71.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="38.1" x2="-58.42" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="25.4" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="10.16" x2="-58.42" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="-60.96" y1="15.24" x2="-60.96" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="27.94" x2="-71.12" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="10.16" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -21888,7 +21888,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <junction x="-25.4" y="106.68"/>
 <pinref part="IC1" gate="G$1" pin="OUT@1"/>
 <pinref part="IC1" gate="G$1" pin="OUT@2"/>
-<wire x1="-25.4" y1="104.14" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="104.14" x2="-25.4" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-25.4" y="104.14"/>
 </segment>
@@ -21984,7 +21984,7 @@ get crossed over here!
 <instance part="+3V17" gate="G$1" x="172.72" y="73.66" smashed="yes">
 <attribute name="VALUE" x="170.18" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+8" gate="1" x="127" y="149.86" rot="MR0"/>
+<instance part="P+8" gate="1" x="127" y="147.32" rot="MR0"/>
 <instance part="P+9" gate="1" x="53.34" y="104.14" rot="MR270"/>
 </instances>
 <busses>
@@ -22091,7 +22091,7 @@ get crossed over here!
 <segment>
 <pinref part="USB" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="127" y1="132.08" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -22298,70 +22298,70 @@ get crossed over here!
 <label x="121.92" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PCLK" class="0">
+<net name="FLCOS_PCLK" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO32"/>
 <wire x1="63.5" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <label x="58.42" y="43.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="HD" class="0">
+<net name="FLCOS_HD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO33"/>
 <wire x1="63.5" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <label x="58.42" y="40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="VD" class="0">
+<net name="FLCOS_VD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO25"/>
 <wire x1="63.5" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <label x="58.42" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="VALID" class="0">
+<net name="FLCOS_VALID" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO26"/>
 <wire x1="63.5" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <label x="58.42" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D0" class="0">
+<net name="FLCOS_D0" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO27"/>
 <wire x1="63.5" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <label x="58.42" y="33.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D6" class="0">
+<net name="FLCOS_D6" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO17"/>
 <wire x1="116.84" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
 <label x="121.92" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D5" class="0">
+<net name="FLCOS_D5" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO21"/>
 <wire x1="116.84" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="121.92" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D3" class="0">
+<net name="FLCOS_D3" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO13"/>
 <wire x1="81.28" y1="15.24" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
 <label x="81.28" y="10.16" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="FLCOS_D2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO12"/>
 <wire x1="63.5" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 <label x="58.42" y="27.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="FLCOS_D1" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO14"/>
 <wire x1="63.5" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
@@ -22416,14 +22416,14 @@ get crossed over here!
 <label x="121.92" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="FLCOS_D7" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO16"/>
 <wire x1="116.84" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <label x="121.92" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="FLCOS_D4" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO22"/>
 <wire x1="116.84" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>

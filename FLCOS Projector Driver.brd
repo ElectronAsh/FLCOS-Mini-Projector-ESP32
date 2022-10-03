@@ -207,6 +207,8 @@
 <vertex x="-208.407" y="-223.8756"/>
 <vertex x="-215.09355" y="-223.8756"/>
 </polygon>
+<text x="74.9046" y="13.7922" size="1.016" layer="21" rot="R90">FLCOS Mini Projector v1.0</text>
+<text x="76.3524" y="15.8496" size="0.8128" layer="21" rot="R90">ElectronAsh, Oct 2022</text>
 </plain>
 <libraries>
 <library name="con-hirose">
@@ -2534,7 +2536,10 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="09J8939" x="45.5168" y="40.2844" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.6118" y="37.1094" size="1.016" layer="27"/>
 </element>
-<element name="IC1" library="SparkFun" package="SOT223" value="" x="29.4132" y="30.9" rot="R270"/>
+<element name="IC1" library="SparkFun" package="SOT223" value="" x="29.4132" y="30.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.1503" y="31.9541" size="1.016" layer="25" rot="R270"/>
+<attribute name="VALUE" x="29.2227" y="31.9795" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="RGB" library="con-jst" package="ZH-8" value="ZH-8" x="39.0144" y="18.161" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.7108" y="25.2744" size="1.27" layer="25"/>
 <attribute name="VALUE" x="35.5144" y="23.411" size="1.27" layer="27" rot="R270"/>
@@ -2951,7 +2956,7 @@ design rules under a new name.</description>
 <wire x1="32.7152" y1="40.4876" x2="32.6898" y2="40.4876" width="0.2032" layer="1"/>
 <via x="32.6898" y="40.4876" extent="1-16" drill="0.3302"/>
 </signal>
-<signal name="D7">
+<signal name="FLCOS_D7">
 <contactref element="X1" pad="7"/>
 <contactref element="U1" pad="11"/>
 <wire x1="47.173" y1="52.6676" x2="41.2082" y2="52.6676" width="0.2032" layer="1"/>
@@ -2967,7 +2972,7 @@ design rules under a new name.</description>
 <wire x1="12.4206" y1="56.6166" x2="29.337" y2="56.6166" width="0.2032" layer="16"/>
 <wire x1="29.337" y1="56.6166" x2="32.9184" y2="53.0352" width="0.2032" layer="16"/>
 </signal>
-<signal name="D6">
+<signal name="FLCOS_D6">
 <contactref element="X1" pad="8"/>
 <contactref element="U1" pad="12"/>
 <wire x1="47.173" y1="52.1676" x2="41.2082" y2="52.1676" width="0.2032" layer="1"/>
@@ -2984,7 +2989,7 @@ design rules under a new name.</description>
 <wire x1="9.184" y1="54.1292" x2="11.098" y2="54.1292" width="0.2032" layer="1"/>
 <wire x1="11.098" y1="54.1292" x2="11.2014" y2="54.0258" width="0.2032" layer="1"/>
 </signal>
-<signal name="D5">
+<signal name="FLCOS_D5">
 <contactref element="X1" pad="9"/>
 <contactref element="U1" pad="13"/>
 <wire x1="47.173" y1="51.6676" x2="41.2082" y2="51.6676" width="0.2032" layer="1"/>
@@ -3002,7 +3007,7 @@ design rules under a new name.</description>
 <wire x1="13.8684" y1="55.245" x2="28.3464" y2="55.245" width="0.2032" layer="16"/>
 <wire x1="28.3464" y1="55.245" x2="32.9184" y2="50.673" width="0.2032" layer="16"/>
 </signal>
-<signal name="D4">
+<signal name="FLCOS_D4">
 <contactref element="X1" pad="10"/>
 <contactref element="U1" pad="14"/>
 <wire x1="47.173" y1="51.1676" x2="41.2082" y2="51.1676" width="0.2032" layer="1"/>
@@ -3079,7 +3084,7 @@ design rules under a new name.</description>
 <wire x1="45.339" y1="41.3004" x2="43.8912" y2="42.7482" width="0.254" layer="16"/>
 <wire x1="43.8912" y1="42.7482" x2="41.7576" y2="42.7482" width="0.254" layer="16"/>
 </signal>
-<signal name="D3">
+<signal name="FLCOS_D3">
 <contactref element="X1" pad="15"/>
 <contactref element="U1" pad="15"/>
 <wire x1="47.173" y1="50.6676" x2="46.0702" y2="50.6676" width="0.2032" layer="1"/>
@@ -3098,7 +3103,7 @@ design rules under a new name.</description>
 <wire x1="31.242" y1="49.9872" x2="31.242" y2="55.4736" width="0.2032" layer="1"/>
 <wire x1="31.242" y1="55.4736" x2="27.5082" y2="59.2074" width="0.2032" layer="1"/>
 </signal>
-<signal name="D2">
+<signal name="FLCOS_D2">
 <contactref element="X1" pad="16"/>
 <contactref element="U1" pad="16"/>
 <wire x1="46.256" y1="50.1676" x2="47.173" y2="50.1676" width="0.2032" layer="1"/>
@@ -3111,7 +3116,7 @@ design rules under a new name.</description>
 <wire x1="32.3864" y1="48.157" x2="30.7848" y2="49.7586" width="0.2032" layer="1"/>
 <wire x1="30.7848" y1="49.7586" x2="30.7848" y2="54.6136" width="0.2032" layer="1"/>
 </signal>
-<signal name="D1">
+<signal name="FLCOS_D1">
 <contactref element="X1" pad="17"/>
 <contactref element="U1" pad="17"/>
 <wire x1="46.5634" y1="48.4176" x2="48.923" y2="48.4176" width="0.2032" layer="1"/>
@@ -3124,7 +3129,7 @@ design rules under a new name.</description>
 <wire x1="32.2006" y1="47.657" x2="30.3276" y2="49.53" width="0.2032" layer="1"/>
 <wire x1="30.3276" y1="49.53" x2="30.3276" y2="53.75" width="0.2032" layer="1"/>
 </signal>
-<signal name="D0">
+<signal name="FLCOS_D0">
 <contactref element="X1" pad="18"/>
 <contactref element="U1" pad="18"/>
 <wire x1="49.423" y1="47.6464" x2="49.2038" y2="47.4272" width="0.2032" layer="1"/>
@@ -3141,7 +3146,7 @@ design rules under a new name.</description>
 <wire x1="48.0822" y1="47.8536" x2="46.76590625" y2="47.8536" width="0.2032" layer="1"/>
 <wire x1="46.76590625" y1="47.8536" x2="46.06930625" y2="47.157" width="0.2032" layer="1"/>
 </signal>
-<signal name="VALID">
+<signal name="FLCOS_VALID">
 <contactref element="X1" pad="19"/>
 <contactref element="U1" pad="26"/>
 <via x="52.8066" y="50.546" extent="1-16" drill="0.3302"/>
@@ -3161,7 +3166,7 @@ design rules under a new name.</description>
 <wire x1="44.5008" y1="47.0408" x2="48.2854" y2="50.8254" width="0.2032" layer="16"/>
 <wire x1="48.2854" y1="50.8254" x2="52.5272" y2="50.8254" width="0.2032" layer="16"/>
 </signal>
-<signal name="VD">
+<signal name="FLCOS_VD">
 <contactref element="X1" pad="20"/>
 <contactref element="U1" pad="24"/>
 <wire x1="41.1976" y1="46.157" x2="43.3272" y2="46.157" width="0.2032" layer="1"/>
@@ -3182,7 +3187,7 @@ design rules under a new name.</description>
 <wire x1="31.6432" y1="46.157" x2="28.956" y2="48.8442" width="0.2032" layer="1"/>
 <wire x1="28.956" y1="48.8442" x2="28.956" y2="51.3116" width="0.2032" layer="1"/>
 </signal>
-<signal name="HD">
+<signal name="FLCOS_HD">
 <contactref element="X1" pad="21"/>
 <contactref element="U1" pad="25"/>
 <wire x1="41.1976" y1="45.657" x2="42.8366" y2="45.657" width="0.2032" layer="1"/>
@@ -3206,7 +3211,7 @@ design rules under a new name.</description>
 <wire x1="48.3108" y1="48.8696" x2="52.07" y2="48.8696" width="0.2032" layer="16"/>
 <wire x1="52.07" y1="48.8696" x2="52.5272" y2="49.3268" width="0.2032" layer="16"/>
 </signal>
-<signal name="PCLK">
+<signal name="FLCOS_PCLK">
 <contactref element="X1" pad="22"/>
 <contactref element="U1" pad="9"/>
 <via x="42.5958" y="44.831" extent="1-16" drill="0.3302"/>
@@ -3867,11 +3872,11 @@ design rules under a new name.</description>
 <wire x1="11.8872" y1="39.9288" x2="11.8872" y2="50.3192" width="0.2032" layer="16"/>
 <wire x1="17.6784" y1="34.1376" x2="11.8872" y2="39.9288" width="0.2032" layer="16"/>
 <via x="32.4612" y="37.8714" extent="1-16" drill="0.3302"/>
-<wire x1="27.3558" y1="37.1856" x2="29.6418" y2="37.1856" width="0.2032" layer="16"/>
-<wire x1="29.6418" y1="37.1856" x2="30.4038" y2="37.8714" width="0.2032" layer="16"/>
-<wire x1="17.6784" y1="34.1376" x2="24.3078" y2="34.1376" width="0.2032" layer="16"/>
-<wire x1="24.3078" y1="34.1376" x2="27.3558" y2="37.1856" width="0.2032" layer="16"/>
-<wire x1="30.4038" y1="37.8714" x2="32.4612" y2="37.8714" width="0.2032" layer="16"/>
+<wire x1="25.527" y1="37.338" x2="29.7942" y2="37.338" width="0.2032" layer="16"/>
+<wire x1="29.7942" y1="37.338" x2="30.3276" y2="37.8714" width="0.2032" layer="16"/>
+<wire x1="17.6784" y1="34.1376" x2="22.2504" y2="34.1376" width="0.2032" layer="16"/>
+<wire x1="22.2504" y1="34.1376" x2="25.527" y2="37.338" width="0.2032" layer="16"/>
+<wire x1="30.3276" y1="37.8714" x2="32.4612" y2="37.8714" width="0.2032" layer="16"/>
 <contactref element="R11" pad="1"/>
 <wire x1="32.4612" y1="37.8714" x2="34.1258" y2="37.8714" width="0.2032" layer="1"/>
 <wire x1="34.1258" y1="37.8714" x2="34.1376" y2="37.8596" width="0.2032" layer="1"/>
