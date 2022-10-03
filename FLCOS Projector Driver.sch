@@ -21237,7 +21237,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="D5" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA"/>
 <part name="C27" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="1uF"/>
 <part name="R15" library="A_butts" deviceset="RESISTOR" device="R0603" value="80k"/>
-<part name="R16" library="A_butts" deviceset="RESISTOR" device="R0603" value="8K9"/>
+<part name="R16" library="A_butts" deviceset="RESISTOR" device="R0603" value="20K"/>
 <part name="IC6" library="A_butts" deviceset="LM3414" device="SO08-PAD" value="LM3414"/>
 <part name="GND33" library="A_butts" deviceset="GND" device=""/>
 <part name="GND34" library="A_butts" deviceset="GND" device=""/>
@@ -21247,7 +21247,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="D1" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA"/>
 <part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="1uF"/>
 <part name="R1" library="A_butts" deviceset="RESISTOR" device="R0603" value="80k"/>
-<part name="R2" library="A_butts" deviceset="RESISTOR" device="R0603" value="8K9"/>
+<part name="R2" library="A_butts" deviceset="RESISTOR" device="R0603" value="20K"/>
 <part name="IC2" library="A_butts" deviceset="LM3414" device="SO08-PAD" value="LM3414"/>
 <part name="GND4" library="A_butts" deviceset="GND" device=""/>
 <part name="GND5" library="A_butts" deviceset="GND" device=""/>
@@ -21257,7 +21257,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="D2" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA"/>
 <part name="C2" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="1uF"/>
 <part name="R3" library="A_butts" deviceset="RESISTOR" device="R0603" value="80k"/>
-<part name="R4" library="A_butts" deviceset="RESISTOR" device="R0603" value="8K9"/>
+<part name="R4" library="A_butts" deviceset="RESISTOR" device="R0603" value="20K"/>
 <part name="IC5" library="A_butts" deviceset="LM3414" device="SO08-PAD" value="LM3414"/>
 <part name="GND6" library="A_butts" deviceset="GND" device=""/>
 <part name="GND7" library="A_butts" deviceset="GND" device=""/>
@@ -22485,8 +22485,20 @@ get crossed over here!
 <text x="170.18" y="55.88" size="1.778" layer="91">&lt;- Anodes</text>
 <text x="170.18" y="73.66" size="1.778" layer="91">&lt;- Anodes</text>
 <text x="170.18" y="60.96" size="1.778" layer="91">&lt;- Anodes</text>
-<text x="157.48" y="78.74" size="1.778" layer="91">Included RGB LED from AliExpress FLCOS.
-Pinout / LED colours tested with meter and bench PSU...</text>
+<text x="119.38" y="88.9" size="1.778" layer="97">Included RGB LED from AliExpress FLCOS.
+Pinout / LED colours tested with meter and bench PSU.
+
+Please ignore the silkscreen markings on the FLCOS module's LED board.</text>
+<text x="-17.78" y="88.9" size="1.778" layer="97">LED current set by IADJ.
+
+ILED = 3,125,000
+              RIADJ        mA</text>
+<wire x1="-10.16" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="97"/>
+<text x="-17.78" y="66.04" size="1.778" layer="97">Examples...
+
+RIADJ = 33K = 94.7   mA
+RIADJ = 20K = 156.25 mA
+RIADJ = 15K = 208.3 mA</text>
 </plain>
 <instances>
 <instance part="RGB" gate="G$1" x="149.86" y="66.04"/>
