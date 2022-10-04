@@ -22864,6 +22864,23 @@ RIADJ = 15K = 208.3 mA</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,175.26,25.4,U$10,SHIELD,GND,,,"/>
+<approved hash="104,2,175.26,27.94,U$10,SHIELD,GND,,,"/>
+<approved hash="104,2,175.26,30.48,U$10,SHIELD,GND,,,"/>
+<approved hash="104,2,175.26,33.02,U$10,SHIELD,GND,,,"/>
+<approved hash="104,2,175.26,63.5,U$10,VDD,+3V3,,,"/>
+<approved hash="206,1,-30.48,106.68,+3V3,,,,,"/>
+<approved hash="206,1,-30.48,104.14,+3V3,,,,,"/>
+<approved hash="208,1,-25.4,109.22,+3V3,sup,,,,"/>
+<approved hash="208,1,-30.48,106.68,+3V3,out,,,,"/>
+<approved hash="208,1,-30.48,104.14,+3V3,out,,,,"/>
+<approved hash="208,1,33.02,86.36,+3V3,sup,,,,"/>
+<approved hash="208,1,88.9,96.52,+3V3,sup,,,,"/>
+<approved hash="208,2,33.02,63.5,+3V3,sup,,,,"/>
+<approved hash="208,2,43.18,73.66,+3V3,sup,,,,"/>
+<approved hash="208,2,172.72,71.12,+3V3,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
