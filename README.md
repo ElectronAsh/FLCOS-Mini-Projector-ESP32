@@ -74,7 +74,7 @@ https://github.com/bitluni/ESP32Lib/blob/8f4b1bc9c331546c57c1ee837ac37303b8d8739
 I kept the TVP5150 chip on the board, as this is the same chip used in the JAKKS projector.
 It outputs standard bt.656 style digital video, and accepts Composite input.
 
-(IIRC, the current crystal freq on the TVP might only work for NTSC input?)
+(The TVP5150 can receive both NTSC and PAL Composite, using one 14.318 MHz crystal.)
 
 
 Most of the footprint libraries for the ESP32, SD slot, TVP5150, and LM3414 were taken from existing open-source projects.

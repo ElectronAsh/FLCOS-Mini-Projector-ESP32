@@ -21920,17 +21920,19 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="35.56" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <label x="30.48" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="X1" gate="-23" pin="1"/>
-<wire x1="139.7" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
-<label x="134.62" y="17.78" size="1.778" layer="95" rot="MR0"/>
-</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
 <wire x1="104.14" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <label x="101.6" y="63.5" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="ESP_EN_N" class="0">
+<segment>
+<pinref part="X1" gate="-23" pin="1"/>
+<wire x1="139.7" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
+<label x="134.62" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
