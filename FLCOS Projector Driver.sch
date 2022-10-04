@@ -21307,10 +21307,10 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="C13" gate="G$1" x="114.3" y="7.62"/>
 <instance part="U1" gate="G$1" x="50.8" y="53.34"/>
 <instance part="GND19" gate="1" x="33.02" y="17.78"/>
-<instance part="GND20" gate="1" x="-10.16" y="60.96" rot="R270"/>
-<instance part="GND21" gate="1" x="-10.16" y="50.8" rot="R270"/>
-<instance part="C14" gate="G$1" x="-2.54" y="60.96" rot="R90"/>
-<instance part="C15" gate="G$1" x="-2.54" y="50.8" rot="R90"/>
+<instance part="GND20" gate="1" x="-10.16" y="58.42" rot="R270"/>
+<instance part="GND21" gate="1" x="-10.16" y="48.26" rot="R270"/>
+<instance part="C14" gate="G$1" x="-2.54" y="58.42" rot="R90"/>
+<instance part="C15" gate="G$1" x="-2.54" y="48.26" rot="R90"/>
 <instance part="C16" gate="G$1" x="0" y="30.48" rot="R180"/>
 <instance part="C17" gate="G$1" x="20.32" y="30.48" rot="R180"/>
 <instance part="GND22" gate="1" x="-38.1" y="53.34"/>
@@ -21325,7 +21325,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="R10" gate="G$1" x="-30.48" y="2.54" rot="MR0"/>
 <instance part="GND24" gate="1" x="-20.32" y="2.54" rot="R90"/>
 <instance part="GND25" gate="1" x="-20.32" y="30.48" rot="R90"/>
-<instance part="Q1" gate="G$1" x="7.62" y="55.88" rot="R90"/>
+<instance part="Q1" gate="G$1" x="7.62" y="53.34" rot="R90"/>
 <instance part="JP2" gate="A" x="-71.12" y="22.86" rot="MR0"/>
 <instance part="GND26" gate="1" x="-63.5" y="15.24"/>
 <instance part="C22" gate="G$1" x="111.76" y="48.26" rot="R90"/>
@@ -21448,12 +21448,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -21777,13 +21777,13 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL1"/>
 <label x="30.48" y="55.88" size="1.778" layer="95" rot="MR0"/>
-<wire x1="7.62" y1="58.42" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="60.96" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="55.88" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="58.42" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<junction x="7.62" y="60.96"/>
+<wire x1="2.54" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<junction x="7.62" y="58.42"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -21792,12 +21792,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="U1" gate="G$1" pin="XTAL2"/>
 <label x="30.48" y="53.34" size="1.778" layer="95" rot="MR0"/>
 <wire x1="35.56" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="53.34" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="50.8" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<junction x="7.62" y="50.8"/>
+<wire x1="2.54" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<junction x="7.62" y="48.26"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -21914,7 +21914,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="EN_N" class="0">
+<net name="TVP_FL_RST_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RESET/"/>
 <wire x1="35.56" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
@@ -21940,6 +21940,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <text x="114.3" y="104.14" size="1.778" layer="91" rot="MR180">NOTE that the TX/RX pins
 get crossed over here!
 (null-modem style)</text>
+<text x="-5.08" y="104.14" size="1.778" layer="97">GPIO0! -&gt;</text>
 </plain>
 <instances>
 <instance part="USB" gate="G$1" x="137.16" y="127"/>
@@ -21968,8 +21969,8 @@ get crossed over here!
 <instance part="GND66" gate="1" x="124.46" y="63.5" rot="R90"/>
 <instance part="GND67" gate="1" x="55.88" y="66.04" rot="R270"/>
 <instance part="GND68" gate="1" x="73.66" y="7.62"/>
-<instance part="R67" gate="G$1" x="45.72" y="66.04" rot="MR90"/>
-<instance part="U$12" gate="G$1" x="45.72" y="76.2"/>
+<instance part="R67" gate="G$1" x="43.18" y="66.04" rot="MR90"/>
+<instance part="U$12" gate="G$1" x="43.18" y="76.2"/>
 <instance part="U$10" gate="G$1" x="195.58" y="45.72"/>
 <instance part="GND53" gate="1" x="172.72" y="20.32" smashed="yes">
 <attribute name="VALUE" x="170.18" y="17.78" size="1.778" layer="96"/>
@@ -22122,7 +22123,7 @@ get crossed over here!
 <segment>
 <pinref part="R67" gate="G$1" pin="2"/>
 <pinref part="U$12" gate="G$1" pin="+3V3"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="71.12" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="VDD"/>
@@ -22270,12 +22271,12 @@ get crossed over here!
 <junction x="93.98" y="137.16"/>
 </segment>
 </net>
-<net name="EN_N" class="0">
+<net name="ESP_EN_N" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <pinref part="R67" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="55.88" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <label x="58.42" y="55.88" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
@@ -22285,7 +22286,7 @@ get crossed over here!
 <label x="27.94" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="GPIO0" class="0">
+<net name="TVP_FL_RST_N" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="30.48" y1="106.68" x2="30.48" y2="104.14" width="0.1524" layer="91"/>

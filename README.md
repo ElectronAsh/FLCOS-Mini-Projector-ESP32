@@ -46,11 +46,10 @@ The forward voltage drop of the Red LED was around 2.0 Volts.
 
 
 The included RGB LED has all of Anodes connected together.
-I originally put some LM3404 LED driver ICs on the board, but they wouldn't have worked for a common-Anode LED.
-So I changed those for the LM3414 instead.
+I originally put some LM3404 LED driver ICs on the board, but they wouldn't have worked for a common-Anode RGB LED chip, so I changed those for the LM3414 instead.
 
 
-The same module appears to be the same one used in the "JAKKS Eyclops" toy projector...
+The FLCOS module appears to be the same one used in the "JAKKS Eyeclops" toy projector...
 https://videotechnology.blogspot.com/2010/11/inside-jakks-pacific-eyeclops-mini.html
 
 Before I received some modules, I did a lot of tracing of the JAKKS PCB to try to confirm the pinout against the TVP5150 TV decoder chip.
