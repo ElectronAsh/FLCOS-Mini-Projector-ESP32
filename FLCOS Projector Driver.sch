@@ -21186,7 +21186,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="CTS406" value="14.31818MHz"/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="CVBS" library="pinhead" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -21329,7 +21329,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <instance part="GND24" gate="1" x="-20.32" y="2.54" rot="R90"/>
 <instance part="GND25" gate="1" x="-20.32" y="30.48" rot="R90"/>
 <instance part="Q1" gate="G$1" x="7.62" y="53.34" rot="R90"/>
-<instance part="JP2" gate="A" x="-71.12" y="22.86" rot="MR0"/>
+<instance part="CVBS" gate="A" x="-71.12" y="22.86" rot="MR0"/>
 <instance part="GND26" gate="1" x="-63.5" y="15.24"/>
 <instance part="C22" gate="G$1" x="132.08" y="53.34" rot="R90"/>
 <instance part="GND27" gate="1" x="124.46" y="53.34" rot="R270"/>
@@ -21481,7 +21481,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <wire x1="-22.86" y1="30.48" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="CVBS" gate="A" pin="3"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="-68.58" y1="20.32" x2="-63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="20.32" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
@@ -21876,7 +21876,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="38.1" x2="-58.42" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="CVBS" gate="A" pin="1"/>
 <wire x1="-58.42" y1="38.1" x2="-58.42" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="25.4" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -21885,7 +21885,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="10.16" x2="-58.42" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="CVBS" gate="A" pin="2"/>
 <wire x1="-58.42" y1="10.16" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>

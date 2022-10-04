@@ -77,7 +77,7 @@ It outputs standard bt.656 style digital video, and accepts Composite input.
 (The TVP5150 can receive both NTSC and PAL Composite, using one 14.318 MHz crystal.)
 
 Only the TVP5150 or ESP32 can drive the FLCOS module at any one time.
-I don't think the TVP video output bus can be set to High-Z, so it may mean removing the TVP5150 if you want the ESP32 to drive the FLCOS?
+The TVP chip can set it's output pins to High-Z (this is done via an I2C register), so it should be possible to keep both the ESP32 and TVP5150 onboard.
 
 
 Most of the footprint libraries for the ESP32, SD slot, TVP5150, and LM3414 were taken from existing open-source projects.
