@@ -2619,6 +2619,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.938" y="63.6524" size="1.016" layer="25"/>
 <attribute name="VALUE" x="12.1666" y="60.579" size="1.27" layer="27"/>
 </element>
+<element name="R12" library="rcl" package="R0603" value="2K2" x="-213.6648" y="-226.4664"/>
 </elements>
 <signals>
 <signal name="+2V5">
@@ -2953,6 +2954,8 @@ design rules under a new name.</description>
 <wire x1="31.3808" y1="40.4876" x2="32.6898" y2="40.4876" width="0.2032" layer="1"/>
 <wire x1="32.7152" y1="40.4876" x2="32.6898" y2="40.4876" width="0.2032" layer="1"/>
 <via x="32.6898" y="40.4876" extent="1-16" drill="0.3302"/>
+<contactref element="R12" pad="1"/>
+<wire x1="12.9822" y1="12.1158" x2="-214.5148" y2="-226.4664" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FLCOS_D7">
 <contactref element="X1" pad="7"/>
@@ -2969,6 +2972,8 @@ design rules under a new name.</description>
 <wire x1="11.2014" y1="55.3974" x2="12.4206" y2="56.6166" width="0.2032" layer="16"/>
 <wire x1="12.4206" y1="56.6166" x2="29.337" y2="56.6166" width="0.2032" layer="16"/>
 <wire x1="29.337" y1="56.6166" x2="32.9184" y2="53.0352" width="0.2032" layer="16"/>
+<contactref element="R12" pad="2"/>
+<wire x1="9.1858" y1="55.3974" x2="-212.8148" y2="-226.4664" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FLCOS_D6">
 <contactref element="X1" pad="8"/>
