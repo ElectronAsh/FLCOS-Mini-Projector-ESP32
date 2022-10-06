@@ -18659,7 +18659,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C56" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="U$43" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC6" library="ESP32-WROOM-32U" deviceset="ESP32-WROOM-32U" device=""/>
+<part name="IC6" library="ESP32-WROOM-32U" deviceset="ESP32-WROOM-32U" device="" value="ESP32-WROOM-32UE-N4"/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
@@ -18667,7 +18667,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$12" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="IC1" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223" value="LM1117MPX-3.3"/>
+<part name="IC1" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223" value="TLV1117LV33DCYT"/>
 <part name="RGB" library="con-jst" deviceset="ZH-8" device=""/>
 <part name="L2" library="A_butts" deviceset="INDUCTOR" device="-TAIYO-YUDEN-6X2.8" value="15uH"/>
 <part name="D2" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA" value="&quot;SB34AFC-AU_R1_000A1 SB34AFC-AU_R1_000A1&quot;"/>
