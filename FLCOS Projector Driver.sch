@@ -18695,7 +18695,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="37R4"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
@@ -18720,6 +18719,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="22K"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="22K"/>
 <part name="CVBS" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18788,7 +18789,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C23" gate="G$1" x="-20.32" y="104.14"/>
 <instance part="IC1" gate="G$1" x="-43.18" y="111.76"/>
 <instance part="+3V3" gate="G$1" x="88.9" y="99.06"/>
-<instance part="R11" gate="G$1" x="129.54" y="68.58"/>
 <instance part="R5" gate="G$1" x="83.82" y="83.82" rot="R90"/>
 <instance part="R6" gate="G$1" x="93.98" y="83.82" rot="R90"/>
 <instance part="R12" gate="G$1" x="93.98" y="38.1" rot="R90"/>
@@ -18799,6 +18799,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND10" gate="1" x="-58.42" y="58.42"/>
 <instance part="C3" gate="G$1" x="-25.4" y="60.96"/>
 <instance part="CVBS" gate="G$1" x="-76.2" y="17.78" rot="MR180"/>
+<instance part="R11" gate="G$1" x="127" y="76.2" rot="R90"/>
+<instance part="+3V4" gate="G$1" x="127" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -19283,14 +19285,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="154.94" y="71.12" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="FLCOS_SOUT" class="0">
-<segment>
-<pinref part="FPC" gate="-5" pin="1"/>
-<label x="154.94" y="68.58" size="1.778" layer="95" rot="MR0"/>
-<wire x1="160.02" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="FPC" gate="-6" pin="1"/>
@@ -19375,6 +19369,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="127" y1="81.28" x2="127" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TVP_FL_RST_N" class="0">
 <segment>
@@ -19388,19 +19387,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="154.94" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_MISO" class="0">
-<segment>
-<wire x1="124.46" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<label x="121.92" y="68.58" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="BYP"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="66.04" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPI_MISO" class="0">
+<segment>
+<pinref part="FPC" gate="-5" pin="1"/>
+<label x="154.94" y="68.58" size="1.778" layer="95" rot="MR0"/>
+<wire x1="160.02" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<label x="114.3" y="68.58" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="127" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="127" y1="68.58" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<junction x="127" y="68.58"/>
 </segment>
 </net>
 </nets>
