@@ -94,6 +94,7 @@ ElectronAsh. ;)
 
 
 ![FLCOS First Light - GEX Logo](/images/FLCOS_Built.jpg)
+![FLCOS First Light - GEX Logo](/images/FLCOS_Built_2.jpg)
 ![FLCOS First Light - GEX Logo](/images/FLCOS_Working_Gex_Logo.jpg)
 
 
