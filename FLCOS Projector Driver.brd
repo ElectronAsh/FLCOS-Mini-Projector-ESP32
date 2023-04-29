@@ -199,7 +199,7 @@
 <hole x="75.8952" y="63.5762" drill="2.6"/>
 <hole x="6.731" y="6.1976" drill="2.6"/>
 <hole x="75.8952" y="6.1976" drill="2.6"/>
-<text x="73.152" y="10.4394" size="1.016" layer="21" rot="R90">FLCOS Mini Projector v1.01</text>
+<text x="73.152" y="10.4394" size="1.016" layer="21" rot="R90">FLCOS Mini Projector v1.1</text>
 <text x="74.5998" y="12.4206" size="0.8128" layer="21" rot="R90">ElectronAsh, April 2023</text>
 <hole x="64.8716" y="35.56" drill="2.5"/>
 <wire x1="34.5948" y1="56.8452" x2="29.4132" y2="56.8452" width="0.2032" layer="21" style="shortdash"/>

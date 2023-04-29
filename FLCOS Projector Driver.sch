@@ -20700,11 +20700,15 @@ RIADJ = 15K = 208.3 mA</text>
 <approved hash="208,1,-35.56,111.76,+3V3,out,,,,"/>
 <approved hash="208,1,-35.56,109.22,+3V3,out,,,,"/>
 <approved hash="208,1,33.02,86.36,+3V3,sup,,,,"/>
-<approved hash="208,1,88.9,96.52,+3V3,sup,,,,"/>
 <approved hash="208,1,127,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,12.7,114.3,+3V3,sup,,,,"/>
 <approved hash="208,2,33.02,63.5,+3V3,sup,,,,"/>
 <approved hash="208,2,43.18,73.66,+3V3,sup,,,,"/>
 <approved hash="208,2,205.74,63.5,+3V3,sup,,,,"/>
+<approved hash="208,3,2.54,38.1,+3V3,sup,,,,"/>
+<approved hash="208,3,2.54,86.36,+3V3,sup,,,,"/>
+<approved hash="208,3,2.54,139.7,+3V3,sup,,,,"/>
+<approved hash="113,1,4.84293,106.454,FAN,,,,,"/>
 </errors>
 </schematic>
 </drawing>
