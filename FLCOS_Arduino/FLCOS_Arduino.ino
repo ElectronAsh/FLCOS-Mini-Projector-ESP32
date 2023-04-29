@@ -23,7 +23,7 @@ const int clockPin = 14;
 //VGA Device
 VGA11Bit vga;
 
-const int tvp_addr = 0x5C;  // Shown as "0xB8" in the datasheet, due to the bit shift thing.
+const int tvp_addr = 0x5C;  // Shown as "0xB8" in the datasheet, due to the bit shift thing (8-bit I2C address vs 7-bit).
 
 const int fidPin = 34;
 const int intPin = 35;
@@ -307,9 +307,9 @@ void setup()
   vspi->begin(spisclkPin, spimisoPin, spimosiPin, flscnPin);
 
   pinMode(rstnPin, OUTPUT);
-  digitalWrite(rstnPin, LOW);       // Reset FLCOS and TVP for 100ms.
+  digitalWrite(rstnPin, LOW);   // Reset FLCOS and TVP for 100ms.
   delay(100);
-  pinMode(rstnPin, INPUT_PULLUP);   // Bring FLCOS and TVP out of reset.
+  digitalWrite(rstnPin, HIGH);  // Bring FLCOS and TVP out of reset.
   delay(100);
 
   flcos_init();
