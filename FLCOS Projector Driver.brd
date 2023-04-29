@@ -2636,7 +2636,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="65.8368" y="12.6746" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CVBS" library="SparkFun-Connectors" package="AUDIO_JACK_3.5MM_TRRS_SMD_RA" value="AUDIO_JACK_TRRSSMD_RA" x="68.8086" y="64.4652" smashed="yes" rot="R270">
-<attribute name="NAME" x="65.1002" y="60.8584" size="1.016" layer="25" ratio="20" rot="R90"/>
+<attribute name="NAME" x="65.024" y="65.1002" size="1.016" layer="25" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-10676" x="68.8086" y="64.4652" size="1.016" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-12639" x="68.8086" y="64.4652" size="1.016" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="67.4116" y="61.2902" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>

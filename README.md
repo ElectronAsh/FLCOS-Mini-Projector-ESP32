@@ -3,18 +3,32 @@
 
 WARNING: Please do not build this board yet. There are still some checks to do.
 
+UPDATE: 29th April 2024: I finally bought one of the Jakks toy projectors from eBay US.
+I hooked up the USB Logic Analyzer to the "SPI" bus on the projector's FLCOS module.
+The projector only ever write to three registers after power-up, then another register to enable the FLCOS after a video signal is detected.
+
+So I did a few tweaks to my Arduino code, and now my own board works, too. ;)
+
+I also confirmed that the AliExpress FLCOS modules DO indeed work fine in the Jakks projector, so they are the same/compatible part.
+
+There are still a few issues to sort out, where the FLCOS won't always turn on when you first plug USB power in, but it will work after pulling
+the reset (EN_N) Low on the ESP32, or re-flashing via the Arduino IDE.
+
+I've included a few photos below of the projector showing "Gex" on the 3DO.
+This is a PAL 3DO, so I tweaked the Arduino code to fit the projected image better.
+(the FLCOS registers will default to NTSC, so I tweaked the values for PAL.)
+
+
 TODO...
 
 Voltage reg pinouts and ADJ pins (use adjustable and add resistor dividers, or look for fixed-output regs for the BOM?)
-Enough decoupling?
 FPC connector direction, top contact? (The FLCOS module will be mounted upside-down on the board)
-Double-check the JST ZH pinout for the LEDs,
-Maybe change the pin header to some sort of socket for the Composite input?
-Check availability of all ICs on LCSC or Mouser, digikey etc.
-Re-check FLCOS module measurements,
-Hunt for parts, create a BOM.
-Run ERC and DRC.
-Order a few test PCBs.
+Double-check the JST ZH pinout for the LEDs. DONE
+Maybe change the pin header to some sort of socket for the Composite input? DONE
+Check availability of all ICs on LCSC or Mouser, digikey etc. DONE
+Hunt for parts, create a BOM. DONE
+Run ERC and DRC. DONE
+Order a few test PCBs. DONE
 
 
 This is a driver board for the FLCOS mini projector modules on AliExpress...
@@ -86,8 +100,13 @@ I don't have the names or links to all of those projects now, but I will add the
 
 I used Eagle 9.0.1 to do the PCB layout.
 
-Again, please don't build this yet until the first prototypes can be tested.
-There likely WILL be some mistakes atm. This is not my best PCB layout. lol
+
+Build at your own risk!
+
+It does finally "work" now, in terms of getting Composite video to display.
+But there are a few issues, as mentioned in the update at the top of this README.
+
+I haven't tried generating video on the ESP32 yet, so I'm not 100% sure that will work without PCB changes.
 
 
 ElectronAsh. ;)
