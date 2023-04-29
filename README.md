@@ -102,8 +102,8 @@ The box is only 90mm wide.
 ![FLCOS Green LED test 150mm from screen](/images/FLCOS_Green_LED_test_150mm_from_screen.jpg)
 ![FLCOS Green LED test screen view](/images/FLCOS_Green_LED_test_screen_view.jpg)
 
-![FLCOS First Light - GEX Logo](/images/FLCOS_Working_Gex_Logo.jpg]
-![FLCOS Module Disassembled](/images/FLCOS_Disassembled.jpg]
+![FLCOS First Light - GEX Logo](/images/FLCOS_Working_Gex_Logo.jpg)
+![FLCOS Module Disassembled](/images/FLCOS_Disassembled.jpg)
 
 ![FLCOS Schematic Eagle sheet 1](/images/FLCOS_Schematic_Eagle_sheet_1.png)
 ![FLCOS Schematic Eagle sheet 2](/images/FLCOS_Schematic_Eagle_sheet_2.png)
