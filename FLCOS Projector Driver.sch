@@ -18602,6 +18602,161 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="JST-PH-2-SMT">
+<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="NC1" x="-3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
+<text x="-2.914" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="2.271" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="JST-PH-2-SMT-RA">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
+<text x="2.286" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="-3.429" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="JST-PH-2-THM">
+<description>4UCon #01528
+http://www.4uconnector.com/online/object/4udrawing/01528.pdf</description>
+<wire x1="3" y1="-1.7" x2="0.5" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.7" x2="0.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.2" x2="-0.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-2.2" x2="-0.5" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.7" x2="-3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.7" x2="-3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.8" x2="3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="3" y1="2.8" x2="3" y2="-1.7" width="0.127" layer="21"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
+<text x="-2.8" y="-3.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="4.064" y="0.762" size="1.27" layer="21" font="vector" rot="R180">+</text>
+<text x="-3.302" y="0.762" size="1.27" layer="21" font="vector" rot="R180">-</text>
+</package>
+<package name="JST-PH-2-THM-RA">
+<description>&lt;b&gt;S2B-PH-K-S&lt;/b&gt; 
+&lt;p&gt;
+JST PH 2-pin thru-home side entry</description>
+<wire x1="-3" y1="6.3" x2="3" y2="6.3" width="0.127" layer="51"/>
+<wire x1="3" y1="6.3" x2="3" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.4" x2="-3" y2="6.3" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-3" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-0.3" x2="2.1" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-0.3" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="6.3" x2="-0.3" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="3.4" x2="0.3" y2="3.4" width="0.127" layer="21"/>
+<wire x1="0.3" y1="3.4" x2="0.3" y2="6.3" width="0.127" layer="21"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224"/>
+<text x="-2.7" y="-3.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD2">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JST_2PIN" prefix="CN" uservalue="yes">
+<description>&lt;b&gt;JST 2-Pin Connectors of various flavors&lt;/b&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SMT-RA (S2B-PH-SM4) 4UConnector #17311&lt;/li&gt;
+&lt;li&gt;SMT  (B2B-PH-SM4)&lt;/li&gt;
+&lt;li&gt;THM-RA (S2B-PH)&lt;/li&gt;
+&lt;li&gt;THM  (B2B-PH)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="-SMT" package="JST-PH-2-SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMT-RA" package="JST-PH-2-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THM" package="JST-PH-2-THM">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THM-RA" package="JST-PH-2-THM-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18679,7 +18834,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="IC1" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223" value="TLV1117LV33DCYT"/>
-<part name="RGB" library="con-jst" deviceset="ZH-8" device=""/>
+<part name="RGB_LED" library="con-jst" deviceset="ZH-8" device=""/>
 <part name="L2" library="A_butts" deviceset="INDUCTOR" device="-TAIYO-YUDEN-6X2.8" value="15uH"/>
 <part name="D2" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA" value="&quot;SB34AFC-AU_R1_000A1 SB34AFC-AU_R1_000A1&quot;"/>
 <part name="C27" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0603" value="1uF"/>
@@ -18747,6 +18902,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="2K2"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="FAN" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18826,6 +18984,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="CVBS" gate="G$1" x="-76.2" y="17.78" rot="MR180"/>
 <instance part="R11" gate="G$1" x="127" y="76.2" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="127" y="86.36"/>
+<instance part="FAN" gate="G$1" x="2.54" y="109.22" rot="R180"/>
+<instance part="+3V3" gate="G$1" x="12.7" y="116.84" rot="MR0"/>
+<instance part="GND14" gate="1" x="12.7" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -18994,6 +19155,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-17.78" y1="53.34" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-25.4" y="53.34"/>
+</segment>
+<segment>
+<pinref part="FAN" gate="G$1" pin="1"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="5.08" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="106.68" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FLCOS_D7" class="0">
@@ -19387,6 +19554,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="127" y1="81.28" x2="127" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FAN" gate="G$1" pin="2"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="5.08" y1="109.22" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="109.22" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TVP_FL_RST_N" class="0">
@@ -20061,7 +20234,7 @@ RIADJ = 22K = 142.04 mA
 RIADJ = 15K = 208.3 mA</text>
 </plain>
 <instances>
-<instance part="RGB" gate="G$1" x="149.86" y="66.04"/>
+<instance part="RGB_LED" gate="G$1" x="149.86" y="66.04"/>
 <instance part="L2" gate="G$1" x="76.2" y="60.96"/>
 <instance part="D2" gate="G$1" x="76.2" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="76.2" size="1.778" layer="95" rot="R90" align="bottom-center"/>
@@ -20257,19 +20430,19 @@ RIADJ = 15K = 208.3 mA</text>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RGB" gate="G$1" pin="1"/>
+<pinref part="RGB_LED" gate="G$1" pin="1"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
 <wire x1="139.7" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="RGB" gate="G$1" pin="4"/>
+<pinref part="RGB_LED" gate="G$1" pin="4"/>
 <wire x1="139.7" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="66.04" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <junction x="137.16" y="73.66"/>
-<pinref part="RGB" gate="G$1" pin="6"/>
+<pinref part="RGB_LED" gate="G$1" pin="6"/>
 <wire x1="139.7" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="60.96" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="137.16" y="66.04"/>
-<pinref part="RGB" gate="G$1" pin="8"/>
+<pinref part="RGB_LED" gate="G$1" pin="8"/>
 <wire x1="139.7" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="55.88" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <junction x="137.16" y="60.96"/>
@@ -20294,9 +20467,9 @@ RIADJ = 15K = 208.3 mA</text>
 <label x="78.74" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RGB" gate="G$1" pin="2"/>
+<pinref part="RGB_LED" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="RGB" gate="G$1" pin="3"/>
+<pinref part="RGB_LED" gate="G$1" pin="3"/>
 <wire x1="134.62" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="68.58" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
@@ -20428,7 +20601,7 @@ RIADJ = 15K = 208.3 mA</text>
 <label x="78.74" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RGB" gate="G$1" pin="5"/>
+<pinref part="RGB_LED" gate="G$1" pin="5"/>
 <wire x1="139.7" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <label x="129.54" y="63.5" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -20452,7 +20625,7 @@ RIADJ = 15K = 208.3 mA</text>
 <label x="78.74" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RGB" gate="G$1" pin="7"/>
+<pinref part="RGB_LED" gate="G$1" pin="7"/>
 <wire x1="139.7" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <label x="129.54" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
