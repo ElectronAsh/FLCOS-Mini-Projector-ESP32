@@ -3,7 +3,7 @@
 
 WARNING: Please do not build this board yet. There are still some checks to do.
 
-UPDATE: 29th April 2024: I finally bought one of the Jakks toy projectors from eBay US.
+UPDATE: 29th April 2023: I finally bought one of the Jakks toy projectors from eBay US.
 I hooked up the USB Logic Analyzer to the "SPI" bus on the projector's FLCOS module.
 The projector only ever write to three registers after power-up, then another register to enable the FLCOS after a video signal is detected.
 
