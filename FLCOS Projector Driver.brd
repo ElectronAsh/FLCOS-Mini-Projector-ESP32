@@ -2603,11 +2603,11 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4105-GF-A/?ref=eda" x="6.7056" y="14.2494" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.7056" y="19.2494" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R13" library="rcl" package="R0603" value="22K" x="14.2494" y="9.2202" smashed="yes" rot="R270">
+<element name="R13" library="rcl" package="R0603" value="5K1" x="14.2494" y="9.2202" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.494" y="7.4422" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.3444" y="9.8552" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R14" library="rcl" package="R0603" value="22K" x="15.0114" y="18.9738" smashed="yes">
+<element name="R14" library="rcl" package="R0603" value="5K1" x="15.0114" y="18.9738" smashed="yes">
 <attribute name="NAME" x="16.256" y="17.8054" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="14.3764" y="17.0688" size="1.27" layer="27"/>
 </element>
@@ -2802,13 +2802,6 @@ design rules under a new name.</description>
 <wire x1="18.0046" y1="18.1694" x2="16.4846" y2="16.6494" width="0.6096" layer="1"/>
 <wire x1="18.0046" y1="18.1694" x2="19.564" y2="18.1694" width="0.6096" layer="1"/>
 <wire x1="16.4846" y1="16.6494" x2="13.0302" y2="16.6494" width="0.6096" layer="1"/>
-<contactref element="R14" pad="2"/>
-<contactref element="R13" pad="2"/>
-<wire x1="14.2494" y1="8.3702" x2="13.423" y2="8.3702" width="0.2032" layer="1"/>
-<wire x1="12.9924" y1="8.8008" x2="12.9924" y2="11.8494" width="0.2032" layer="1"/>
-<wire x1="13.423" y1="8.3702" x2="12.9924" y2="8.8008" width="0.2032" layer="1"/>
-<wire x1="15.8614" y1="18.9738" x2="17.2002" y2="18.9738" width="0.254" layer="1"/>
-<wire x1="17.2002" y1="18.9738" x2="18.0046" y2="18.1694" width="0.254" layer="1"/>
 <wire x1="50.5968" y1="40.767" x2="49.3776" y2="39.5478" width="0.508" layer="1"/>
 <wire x1="54.2544" y1="40.767" x2="50.5968" y2="40.767" width="0.508" layer="1"/>
 <wire x1="46.482" y1="36.195" x2="47.0916" y2="36.195" width="0.3048" layer="1"/>
@@ -3069,6 +3062,14 @@ design rules under a new name.</description>
 <contactref element="FAN" pad="2"/>
 <wire x1="33.8582" y1="18.5048" x2="32.7016" y2="18.5048" width="0.2032" layer="1"/>
 <wire x1="32.7016" y1="18.5048" x2="32.1564" y2="19.05" width="0.2032" layer="1"/>
+<contactref element="R14" pad="2"/>
+<contactref element="R13" pad="2"/>
+<wire x1="15.8614" y1="18.9738" x2="16.8402" y2="18.9738" width="0.254" layer="1"/>
+<wire x1="16.8402" y1="18.9738" x2="17.0688" y2="19.2024" width="0.254" layer="1"/>
+<via x="17.0688" y="19.2024" extent="1-16" drill="0.3302"/>
+<wire x1="14.2494" y1="8.3702" x2="12.8134" y2="8.3702" width="0.254" layer="1"/>
+<wire x1="12.8134" y1="8.3702" x2="12.6492" y2="8.5344" width="0.254" layer="1"/>
+<via x="12.6492" y="8.5344" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="FLCOS_D7">
 <contactref element="FPC" pad="7"/>

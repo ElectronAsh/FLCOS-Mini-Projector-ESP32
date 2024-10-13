@@ -18873,10 +18873,8 @@ JST PH 2-pin thru-home side entry</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="USB-C" library="USB4105-GF-A" deviceset="USB4105-GF-A" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="22K"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="22K"/>
-<part name="P+14" library="supply1" deviceset="+5V" device=""/>
-<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="5K1"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="5K1"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="82K"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="82K"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="82K"/>
@@ -18905,6 +18903,8 @@ JST PH 2-pin thru-home side entry</description>
 <part name="FAN" library="adafruit" deviceset="JST_2PIN" device="-THM"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19611,7 +19611,7 @@ JST PH 2-pin thru-home side entry</description>
 <text x="109.22" y="104.14" size="1.778" layer="91" rot="MR180">NOTE that the TX/RX pins
 get crossed over here!
 (null-modem style)</text>
-<text x="-5.08" y="104.14" size="1.778" layer="97">GPIO0! -&gt;</text>
+<text x="5.08" y="104.14" size="1.778" layer="97" rot="MR0">GPIO0! -&gt;</text>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="86.36" y="114.3" smashed="yes" rot="R180"/>
@@ -19650,18 +19650,16 @@ get crossed over here!
 <instance part="+3V17" gate="G$1" x="205.74" y="66.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="208.28" y="60.96" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="P+8" gate="1" x="220.98" y="152.4" rot="MR0"/>
+<instance part="P+8" gate="1" x="213.36" y="154.94" rot="MR0"/>
 <instance part="P+9" gate="1" x="55.88" y="104.14" rot="MR270"/>
 <instance part="J1" gate="G$1" x="185.42" y="45.72"/>
 <instance part="GND9" gate="1" x="205.74" y="30.48" smashed="yes">
 <attribute name="VALUE" x="203.2" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="USB-C" gate="G$1" x="193.04" y="127"/>
-<instance part="GND11" gate="1" x="218.44" y="109.22"/>
-<instance part="R13" gate="G$1" x="233.68" y="139.7" rot="R90"/>
-<instance part="R14" gate="G$1" x="154.94" y="139.7" rot="R90"/>
-<instance part="P+14" gate="1" x="233.68" y="152.4" rot="MR0"/>
-<instance part="P+15" gate="1" x="154.94" y="152.4" rot="MR0"/>
+<instance part="USB-C" gate="G$1" x="182.88" y="137.16"/>
+<instance part="GND11" gate="1" x="208.28" y="119.38"/>
+<instance part="R13" gate="G$1" x="223.52" y="134.62" rot="R270"/>
+<instance part="R14" gate="G$1" x="144.78" y="134.62" rot="R270"/>
 <instance part="C4" gate="G$1" x="10.16" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.636" y="129.159" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="8.636" y="134.239" size="1.778" layer="96" rot="R180"/>
@@ -19669,6 +19667,8 @@ get crossed over here!
 <instance part="GND12" gate="1" x="10.16" y="121.92"/>
 <instance part="R23" gate="G$1" x="30.48" y="96.52" rot="R90"/>
 <instance part="GND13" gate="1" x="30.48" y="86.36"/>
+<instance part="GND15" gate="1" x="144.78" y="124.46"/>
+<instance part="GND16" gate="1" x="223.52" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -19755,12 +19755,12 @@ get crossed over here!
 <segment>
 <pinref part="USB-C" gate="G$1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="119.38" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="129.54" x2="208.28" y2="127" width="0.1524" layer="91"/>
 <pinref part="USB-C" gate="G$1" pin="SHELL_GND"/>
-<wire x1="218.44" y1="116.84" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
-<junction x="218.44" y="116.84"/>
+<wire x1="208.28" y1="127" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
+<junction x="208.28" y="127"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -19771,6 +19771,16 @@ get crossed over here!
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="88.9" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="127" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="127" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -19787,18 +19797,8 @@ get crossed over here!
 <segment>
 <pinref part="USB-C" gate="G$1" pin="VBUS"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<wire x1="213.36" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="137.16" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="P+15" gate="1" pin="+5V"/>
-<wire x1="154.94" y1="144.78" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="P+14" gate="1" pin="+5V"/>
-<wire x1="233.68" y1="144.78" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="147.32" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -19920,13 +19920,13 @@ get crossed over here!
 </segment>
 <segment>
 <pinref part="USB-C" gate="G$1" pin="DN1"/>
-<wire x1="172.72" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
-<label x="170.18" y="127" size="1.778" layer="95" rot="MR0"/>
+<wire x1="162.56" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="160.02" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="USB-C" gate="G$1" pin="DN2"/>
-<wire x1="213.36" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
-<label x="215.9" y="127" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<wire x1="203.2" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+<label x="205.74" y="137.16" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -19945,13 +19945,13 @@ get crossed over here!
 </segment>
 <segment>
 <pinref part="USB-C" gate="G$1" pin="DP1"/>
-<wire x1="172.72" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
-<label x="170.18" y="129.54" size="1.778" layer="95" rot="MR0"/>
+<wire x1="162.56" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
+<label x="160.02" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="USB-C" gate="G$1" pin="DP2"/>
-<wire x1="213.36" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
-<label x="215.9" y="129.54" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<wire x1="203.2" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
+<label x="205.74" y="139.7" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -20183,19 +20183,19 @@ get crossed over here!
 <net name="CC1" class="0">
 <segment>
 <pinref part="USB-C" gate="G$1" pin="CC1"/>
-<label x="170.18" y="132.08" size="1.778" layer="95" rot="MR0"/>
+<label x="160.02" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="132.08" x2="154.94" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="132.08" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="142.24" x2="144.78" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="142.24" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC2" class="0">
 <segment>
 <pinref part="USB-C" gate="G$1" pin="CC2"/>
-<label x="215.9" y="132.08" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<label x="205.74" y="142.24" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="132.08" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="142.24" x2="223.52" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="142.24" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
